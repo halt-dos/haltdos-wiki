@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Status  
@@ -16,6 +16,8 @@ This status page shows the details of all instances, their health, the status of
 
 A sample instance status is shown below:
 
-![status_page](/img/platform/v7/docs/status_newui_01.png)
+![status_page](/img/platform/v7/docs/newsnaps/v8status.png)
 
-![status_page](/img/platform/v7/docs/status_newui.png)
+![status_page](/img/platform/v7/docs/newsnaps/v8status1.png)
+
+![status_page](/img/platform/v7/docs/newsnaps/v8status2.png)

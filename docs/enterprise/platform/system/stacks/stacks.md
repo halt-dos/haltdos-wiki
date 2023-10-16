@@ -19,6 +19,8 @@ Stacks form the basis for creating, enabling, and using all Haltdos services inc
 
 A stack is equivalent to a license in the traditional appliance. Based on the provided license on your Haltdos appliance, appropriate stack would be configured. If your license includes virtual ADC, you can create your own vADC stack. If you are using Haltdos Centralized Management solution, you can manage multiple stacks as well.
 
+![stack](/img/platform/v7/docs/newsnaps/v8stacks.png)
+
 **To create a licensed Stack**
 
 Go to **Home > Stacks**

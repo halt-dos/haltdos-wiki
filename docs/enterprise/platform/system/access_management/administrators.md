@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # Administrators
@@ -10,7 +10,9 @@ Managing Administrators on Haltdos Platform
 
 Haltdos supports having multiple administrators for managing Haltdos appliances. This section describes how to add / delete and update administrators on Haltdos GUI.
 
-![users](/img/platform/v6/docs/admin_users1.png)
+![users](/img/platform/v7/docs/newsnaps/v8admin.png)
+
+![users](/img/platform/v7/docs/newsnaps/v8admin1.png)
 
 **How to Use:**
 
