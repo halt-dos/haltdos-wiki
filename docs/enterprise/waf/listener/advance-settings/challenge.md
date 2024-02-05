@@ -6,7 +6,7 @@ Configure Javascript challenge settings
 ### Overview 
 Haltdos provides you the ability to send Javascript challenge at client side by either throwing a Captcha Challenge or a Crypto
 Challenge.
-![Challenge](/img/waf/v7/docs/challenge.png)
+![Challenge](/img/waf/v8/docs/listener_challenge.png)
 
 # How to Use :
 1. Go to **WAF** > **Listeners** > **Advance Settings** > **Challenge**

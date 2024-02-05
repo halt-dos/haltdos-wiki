@@ -11,16 +11,16 @@ Configure Operational settings of Listeners.
 
 Users are allowed to configure many operational settings for the [Listeners](../listener/listener.md). Users can configure most common settings like timeout settings, operation modes, header/body timeouts, error handling, and request logging. Users can also add server aliases and VIPs to the configured listener with the help of operational settings
 
-![Listener Operational Settings](/img/waf/v7/docs/operationalsettings1.png)  
+![Listener Operational Settings](/img/waf/v8/docs/listener_settings.png)  
   
 ### How to Use:
 1. Go to **WAF** > **Listener** > **Settings**.  
 2. Configure the settings.
 3. Click on Save changes.  
 
-![Listener Operational Settings](/img/waf/v7/docs/operationalsettings2.png)
+![Listener Operational Settings](/img/waf/v8/docs/listener_settings1.png)
 
-![Listener Operational Settings](/img/waf/v7/docs/operationalsettings3.png)
+![Listener Operational Settings](/img/waf/v8/docs/listener_settings2.png)
 
 
 | PARAMETERS                  | ACCEPTED VALUES | DEFAULT       |

@@ -8,9 +8,9 @@ Configure the application servers
 
 Configuration of upstream servers in a server group can be modified on-the-fly by using Servers.
 
-![Servers](/img/waf/v7/docs/server.png)
+![Servers](/img/waf/v8/docs/servergroup_server.png)
 
-![Servers](/img/waf/v7/docs/server1.png)
+![Servers](/img/waf/v8/docs/servergroup_server1.png)
 
 ## How to Use :
 

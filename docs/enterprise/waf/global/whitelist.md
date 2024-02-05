@@ -1,10 +1,10 @@
 ---
 
-sidebar_position: 6
+sidebar_position: 1
 
 ---
 
-# Global Whitelist
+# Whitelist
 
 ---
 
@@ -13,7 +13,7 @@ sidebar_position: 6
 Global settings help to configure the settings whose scope is global. Here we have Global Whitelist Rules which would whitelist the mitigations globally irrespective of zone or listener.
 
 
-![Global Whitelist Rules](/img/waf/v7/docs/global_whitelist.png)
+![Global Whitelist Rules](/img/waf/v8/docs/whitelist.png)
 
 
 ### Global Whitelist Rules
@@ -27,7 +27,7 @@ These are the whitelist rule which helps in whitelisting mitigations globally fo
 3. Configure the Fields
 4. Click **Save Changes**
 
-![Global Whitelist Condition ](/img/waf/v7/docs/global_whitelist_condition.png)
+![Global Whitelist Condition ](/img/waf/v8/docs/whitelist_condition.png)
 
 ## Description
 

@@ -18,7 +18,7 @@ This is useful for:
 
 Monitoring, when you get the state of the server or server group with one command.
 
-![Server Group](/img/waf/v7/docs/servergroup.png)
+![Server Group](/img/waf/v8/docs/listener_server_group.png)
 
 ### How to Use:
 

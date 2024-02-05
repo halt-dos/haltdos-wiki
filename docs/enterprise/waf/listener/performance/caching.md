@@ -5,7 +5,7 @@
 ## Overview
 When caching is enabled, WAF saves responses in a directory and uses them to respond to clients without having to proxy requests for the same content every time.
 
-![Caching](/img/waf/v7/docs/performance_caching.png)
+![Caching](/img/waf/v8/docs/listener_caching.png)
 
 ## How to Use :
 
@@ -29,7 +29,7 @@ When caching is enabled, WAF saves responses in a directory and uses them to res
  | Cache Validity | Integer| 5
  | Browser Cache Expiry | Integer | 0
 
-![caching](/img/waf/v7/docs/prformance_caching1.png)  
+![caching](/img/waf/v8/docs/listener_caching1.png)  
 
 ### Description 
 

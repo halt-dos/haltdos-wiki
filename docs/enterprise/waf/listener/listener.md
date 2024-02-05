@@ -10,9 +10,9 @@ Listeners are commonly used to integrate a website into the WAF system. The WAF 
 
 When we add a website to WAF, we must include our backend server and its port number.
 
-![Listener](/img/waf/v7/docs/listeners.png)
+![Listener](/img/waf/v8/docs/listener.png)
 
-![Listener](/img/waf/v7/docs/addinglisteners.png)
+![Listener](/img/waf/v8/docs/listener1.png)
 
 ## How to Use :
 1. Go to **Apps** > **WAF** > **Listeners**

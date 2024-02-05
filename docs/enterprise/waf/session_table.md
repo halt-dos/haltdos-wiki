@@ -1,5 +1,5 @@
 ---
-sidebar position: 5
+sidebar position: 4
 ---
 
 # Session Table
@@ -8,7 +8,7 @@ sidebar position: 5
 
 The session table records the connection status of on boarded listeners. It plays an important role  to understand the traffic flow and to identify which request has forwarded to which upstream.
 
-![session_table](/img/waf/v7/docs/sessiontable.png)
+![session_table](/img/waf/v8/docs/session.png)
 
 ### How to Use:
 

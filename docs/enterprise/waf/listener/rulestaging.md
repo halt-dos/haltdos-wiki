@@ -11,7 +11,7 @@ User can specify rule staging settings on this page for Listener
 Users can configure below rule staging settings for Listener.
 
 
-![Rule Staging](/img/waf/v7/docs/rulestaging.png)
+![Rule Staging](/img/waf/v8/docs/listener_rule_staging.png)
 
 ## How to Use:
 
