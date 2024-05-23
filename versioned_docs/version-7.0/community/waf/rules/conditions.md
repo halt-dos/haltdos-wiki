@@ -5,7 +5,7 @@ sidebar_position: 9
 # Rule Condition
 
 
-### Add Condition
+### Overview
 
 
 This enables users to define conditions that are directly tied to the rules. These conditions act as prerequisites, mandating that certain condition must be met before a particular rule action can take effect. Essentially, users can establish requirements regarding the interactions between the system and external entities, ensuring that the rule is only enforced when these conditions are satisfied. This feature provides users with a powerful means of fine-tuning the behavior of the system, allowing for precise control over when and how rules are applied based on the context of request and response interactions.
