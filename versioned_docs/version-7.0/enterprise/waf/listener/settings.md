@@ -107,6 +107,9 @@ This option sets the duration (in seconds) for which the server keeps an idle co
 
 - **Keep-alive timeout** determines how long the server should wait for the next request from the client before closing the connection. If the server does not receive a new request within this period, it closes the connection to free up resources.
 
+::: note
+Note : If value is set to 0 then it would be disable.
+:::
 ##### **Upstream Keep-Alive Timeout**
 This option sets the duration (in seconds) for which the server keeps an idle connection open with an upstream server. If set to 0, keep-alive connections are disabled, causing the server to close the connection immediately after receiving a response from the upstream server.
 

@@ -13,9 +13,6 @@ Haltdos provides you the ability to compress or decompress the responses which o
 2. Click on **Add Compression Configuration ** 
 3. Click **Save Changes**
 
-     
-![Compression](/img/waf/v7/docs/performance.png)
-
 ### Description 
 
 ##### **Enable Compression**

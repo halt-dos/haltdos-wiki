@@ -99,7 +99,7 @@ Health check sends DNS query, if unable to receive response, then we make that s
  - **ICMP**: 
 Health check sends ICMP ping, if unable to receive response, then we make that server as unhealthy.  
  - **SNMP**: 
-Health check sends SNMP query, if unable to receive response, then we make that server as unhealthy. For SNMP, measurement can be based on CPU, RAM or both. User will also need to specify maximum threshold (percentage) for marking the health of the server as up. SNMP v2,v2c and v3 are supported.  
+Health check sends SNMP query, if unable to receive response, then we make that server as unhealthy. For SNMP, measurement can be based on CPU, RAM or both. User will also need to specify maximum threshold (percentage) for marking the health of the server as up. SNMP v1,v2c and v3 are supported.  
  - **Custom Script**: 
 Health check runs custom script (shell script, perl script or Lua script). The script is executed with parameters of server IP and server Port. If the script responds with 1, heath check is passed. If the script responds with 0, we make that server as unhealthy  
 

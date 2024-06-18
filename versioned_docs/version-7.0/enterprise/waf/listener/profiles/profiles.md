@@ -17,18 +17,6 @@ Profiles is the default profile that contains most commonly used web application
 
 ![Profiles.png](/img/waf/v7/docs/profile12.png)
    
-| Parameters         | Accepted Values | Default |
-|--------------------|-----------------|---------|
-| Profile Name       | String          | Blank   |
-| Profile Priority   | Integer         | 0       |
-| Application Type   | Drop-Down       | Others  |
-| Protocol           | Drop-Down       | Any     |
-| Countries          | Drop-down       | Blank   |
-| URI                | String          | Blank   |
-| Source IP Prefixes | IP Address      | Blank   |
-| Destination Port   | Integer         | Blank   |
-| Reference          | Drop-Down       | None    |
-
 
 ### Description
 
