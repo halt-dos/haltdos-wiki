@@ -55,41 +55,41 @@ This option allows the user to set a name for his monitoring rule.
 
 This option allows to enable or disable monitor rule. by default, It is set to disable.
 
-    Accepted values: String
+    Accepted values: Enable / Disable
 
-    Default: Blank 
+    Default: Disable 
 
 ##### **Update Static Route**
 
 It specifies if the static route should be updated upon failure.
 
-    Accepted values: String
+    Accepted values: Enable / Disable
 
-    Default: Blank 
+    Default: Disable 
 
 ##### **Use IPv6**
 
 It specifies if the monitor should use the IPv6 stack.
 
-    Accepted values: String
+    Accepted values: Enable / Disable
 
-    Default: Blank 
+    Default: Disable 
 
 ##### **Check Interval**
 
 This option allows the user to set a health check interval for monitoring the services in seconds. After the mentioned time period, defined monitor settings will be checked.
 
-    Accepted values: String
+    Accepted values: Integer
 
-    Default: Blank 
+    Default: 10 
 
 ##### **Monitor Type**
 
 It specifies the health check type for monitoring. Users need to select the appropriate type of protocol to monitor the interfaces. By default, TCP is selected. Monitor can be configured for the mentioned protocols using the drop-down;
 
-    Accepted values: String
+    Accepted values: TCP / ICMP / DNS / HTTP / HTTPS / SCRIPTS
 
-    Default: Blank 
+    Default: TCP 
 
 1. TCP,
 2. ICMP,
@@ -104,7 +104,7 @@ To enable monitor based on UDP, ARP or any other protocol, **CUSTOM SCRIPT** can
 
 This option can only be seen when ICMP/TCP other protocol is selected in the **Monitor Type**. It allows the user to set the query server IP Address to which the monitor request will send.
 
-    Accepted values: String
+    Accepted values: IP
 
     Default: Blank 
 
@@ -112,39 +112,15 @@ This option can only be seen when ICMP/TCP other protocol is selected in the **M
 
 It specifies the port number to connect the server when TCP protocol is selected in **Monitor Type**.
 
-    Accepted values: String
+    Accepted values: Integer
 
-    Default: Blank 
-
-##### **Host Name**
-
-This option will only appear when Monitor Type is selected to HTTP/HTTPS. This option allows the user to mention hostname to query.
-
-    Accepted values: String
-
-    Default: Blank 
-
-##### **Expected Response**
-
-This option will only appear when Monitor Type is selected to HTTP/HTTPS. HTTP/HTTPS response status codes indicate whether a specific HTTP/HTTPS request has been successfully completed. This option allows users to set the response we get for the HTTP request.
-
-    Accepted values: String
-
-    Default: Blank 
-
-##### **Match Conent**
-
-This option will only appear when Monitor Type is selected to HTTP/HTTPS. It will specify the content to match in the response. 
-
-    Accepted values: String
-
-    Default: Blank 
+    Default: 80 
 
 ##### **Timeout**
 
 It specifies the timeout after which the monitoring will be marked failed. Users can specify the timeout in seconds.
 
-    Accepted values: String
+    Accepted values: Integer
 
     Default: Blank 
 
@@ -152,7 +128,7 @@ It specifies the timeout after which the monitoring will be marked failed. Users
 
 This option allows the user to set the integer values for the fail threshold limit. When an already set monitor threshold reaches the specified threshold, it will be marked down. Users can set the threshold on network activities like latency, packet drop, and jitter.
 
-    Accepted values: String
+    Accepted values: Integer
 
     Default: Blank 
 
@@ -160,7 +136,7 @@ This option allows the user to set the integer values for the fail threshold lim
 
 This option allows the user to set the integer values for the pass threshold limit. When the set monitor threshold reaches the specified threshold, it will be marked up.
 
-    Accepted values: String
+    Accepted values: Integer
 
     Default: Blank 
 
@@ -168,7 +144,7 @@ This option allows the user to set the integer values for the pass threshold lim
 
 Latency is the time it takes for data to pass from one point on a network to another. This option specifies that Interface should be marked down if the latency threshold is breached. By default, the latency threshold is set to 0 which is its disable state.
 
-    Accepted values: String
+    Accepted values: Integer
 
     Default: Blank 
 
@@ -176,7 +152,7 @@ Latency is the time it takes for data to pass from one point on a network to ano
 
 Jitter is when there is a time delay in sending data packets over your network connection. This option specifies that the interface should be marked down if the jitter threshold is breached. By default, it is set to 0 which is the disabled state.
 
-    Accepted values: String
+    Accepted values: Integer
 
     Default: Blank 
 
@@ -184,7 +160,7 @@ Jitter is when there is a time delay in sending data packets over your network c
 
 Packet loss occurs when one or more packets of data traveling across a computer network fail to reach their destination. Packet loss is either caused by errors in data transmission, typically across wireless networks, or network congestion. It specifies interface should be marked down if the packet loss threshold is breached. Set 0 to disable.
 
-    Accepted values: String
+    Accepted values: Integer
 
     Default: Blank 
 

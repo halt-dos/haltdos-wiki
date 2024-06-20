@@ -25,16 +25,6 @@ Link load balancing is a term that refers to the management of the traffic that 
 
 5. Click **Save Changes**
 
-| SETTINGS                     | ACCEPTED VALUES                                | DEFAULT           |
-|------------------------------|------------------------------------------------|-------------------|
-| Enable Load Balancing        | Enables Load Balancing Accepted values: Boolen | False (Mandatory) |
-| WAN Algorithm                | Drop Down                                      | Round Robin       |
-| Connection Tuple Expiry      | Accepted Values: Integer                       | 10                |
-| Connection Less Tuple Expiry | Accepted Values: Integer                       | 10                |
-| Interface                    | Drop Down                                      | Empty             |
-| Weight                       | Accepted Values: Integer                       | 100(Mandatory)    |
-
-
  ### **Description:**
 
 ##### **Enable Load Balancing**

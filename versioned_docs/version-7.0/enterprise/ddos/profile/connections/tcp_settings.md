@@ -22,10 +22,9 @@ In DDoS connection, you can configure Connection based protocols which will regu
 
 ![](/img/ddos/v7/docs/tcp2.png)
 
-### **TCP Settings:**
+#### **TCP Settings:**
 
-
-### **Description:**
+#### **Description:**
 
 ##### **TCP**
 

@@ -18,15 +18,6 @@ The Aggressive aging feature is used to set the age value for non-responsive est
 
 3. Click on **Save Changes**
 
-| Parameter                               | Accepted Values | Default |
-|-----------------------------------------|-----------------|---------|
-| Inbound Aging Enabled                   | Boolen          | 0       |
-| Inbound Connection Time Out             | Integer         | 600     |
-| Inbound Incomplete Connection Time Out  | Integer         | 30      |
-| Outbound Aging Enabled                  | Boolen          | 0       |
-| Outbound Connection Time Out            | Integer         | 600     |
-| Outbound Incomplete Connection Time Out | Integer         | 30      |
-
 ### Description
 
 #### Inbound Aging Enabled
@@ -43,7 +34,7 @@ User can specify the time limit for inbound TCP connections. By specifying this 
 
     Accepted values: Integer
     
-    Default: 30
+    Default: 600
 
 #### Inbound Incomplete Connection Timeout
 
@@ -51,7 +42,7 @@ User can specify the time limit for inbound incomplete TCP connections. By speci
 
     Accepted values: Integer
     
-    Default: 100
+    Default: 30
 
 #### Outbound Aging Enabled
 
@@ -67,7 +58,7 @@ User can specify the time limit for outbound TCP connections. By specifying this
 
     Accepted values: Integer
     
-    Default: 30
+    Default: 600
 
 #### Outbound Incomplete Connection Timeout
 
@@ -75,4 +66,4 @@ User can specify the time limit for outbound incomplete TCP connections. By spec
 
     Accepted values: Integer
     
-    Default: 100
+    Default: 30
