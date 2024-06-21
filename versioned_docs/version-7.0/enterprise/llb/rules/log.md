@@ -22,18 +22,6 @@ This rule helps users to capture packet. Once we configure the log rule, all tho
 
 3. Configure the rule conditions and click on save changes.
 
-| Parameter          | Accepted Value | Default Values |
-|--------------------|----------------|----------------|
-| Rule Name              | Specify Rule Name              | Blank (Mandatory)  |
-| Rule Message           | User Friendly Message For Rule | Blank (Mandatory)  |
-| Rule Priority          | Integer                        | 0                  |
-| Enabled                | Boolean                        | True               |
-| Incoming Interface | Drop-Down      | Blank          |
-| Outgoing Interface | Drop-Down      | Blank          |
-| Source IP range    | IP address     | Blank          |
-| Service Protocol   | Drop-Down      | ANY            |
-| Port Range         | Integer        | Blank          |
-
 ### **Description:**
 
 ##### **Rule Name**

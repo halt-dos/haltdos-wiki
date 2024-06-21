@@ -22,23 +22,6 @@ If any of the links are monitored and marked as down, the traffic will not redir
 
 ![monitor_settings](/img/llb/v7/docs/monitor1.png)
 
-| SETTINGS             | ACCEPTED VALUES                      | DEFAULT                |
-|----------------------|--------------------------------------|------------------------|
-| Monitor Name         | User friendly monitor name           | Blank (Mandatory)      |
-| Enabled              | Boolen                               | False (Mandatory)      |
-| Update Static Route  | Boolen                               | False                  |
-| Use IPv6             | Boolen                               | False                  |
-| Check Interval       | Integer                              | 10 seconds (Mandatory) |
-| Monitor type         | Drop Down                            | TCP (Mandatory)        |
-| Query Server         | IP Address of server to send request | None (Mandatory)       |
-| Port                 | Port Number to connect the server    | 80 (Mandatory)         |
-| Timeout              | Integer                              | 1 (Mandatory)          |
-| Fail Threshold       | Integer                              | 1 (Mandatory)          |
-| Pass Threshold       | Integer                              | 1 (Mandatory)          |
-| Latency Threshold    | Integer                              | 0 (Mandatory)          |
-| Jitter Threshold     | Integer                              | 0 (Mandatory)          |
-| Packet Loss Treshold | Integer                              | 0 (Mandatory)          |
-
 ![monitor_settings](/img/llb/v7/docs/monitor2.png)
 
 ### **Description:**

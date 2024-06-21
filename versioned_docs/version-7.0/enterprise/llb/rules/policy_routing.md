@@ -26,24 +26,6 @@ Policy-based routing  provides flexible, granular traffic-handling capabilities 
 
 5. Click Save.
 
-
-| Setting                | Accepted Values                | Default            |
-|------------------------|--------------------------------|--------------------|
-| Rule Name              | Specify Rule Name              | Blank (Mandatory)  |
-| Rule Message           | User Friendly Message For Rule | Blank (Mandatory)  |
-| Rule Priority          | Integer                        | 0                  |
-| Enabled                | Boolean                        | True               |
-| Incoming Interfaces    | Drop Down                      | None (Mandatory)   |
-| Source IP              | IP address with CIDR           | None (Mandatory)   |
-| Destination IP         | IP address with CIDR           | None (Mandatory)   |
-| Protocol               | Select the Protocol            | Any                |
-| Route Action           | Drop Down                      | Forwarding Traffic |
-| Source Port Range      | Integer                        | None               |
-| Destination Port Range | Integer                        | None               |
-| Outgoing Interface     | Drop Down                      | None (Mandatory    |
-| Gateway IP             | IP Address                     | None (Mandatory    |
-| Enable NAT             | Boolean                        | True               |
-
 ### **Description:**
 
 ##### **Rule Name**
